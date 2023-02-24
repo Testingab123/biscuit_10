@@ -84,6 +84,7 @@ public class Data implements Serializable {
      *            data object to be appended to this one
      */
     public void append(Data d) {
+        System.out.println("error");
         boolean valid = true;
         String[] headers = getHeaders();
         String[] dHeaders = d.getHeaders();
